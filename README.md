@@ -423,12 +423,6 @@ This hands-on approach ensures deep understanding of Go's type system and produc
 
 ---
 
-## 👤 Author
-
-**Zhicheng Yu**  
-Computer Science Student | Hunter College, CUNY  
-📧 yuzhicheng369@gmail.com  
-🔗 [LinkedIn](https://linkedin.com/in/zhichengyu369) | [GitHub](https://github.com/zhichengu1)
 
 ---
 
