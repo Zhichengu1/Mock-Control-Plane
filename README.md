@@ -139,8 +139,6 @@ type SonyDeviceRequest struct {
 | **Concurrency** | sync.RWMutex | Thread-safe in-memory database |
 | **Context** | context.Context | Request cancellation and timeout management |
 | **Testing** | go test, fuzzing | Unit tests and security testing |
-| **Containerization** | Docker | Multi-stage builds for minimal images |
-| **Orchestration** | Kubernetes | Deployment, scaling, health checks |
 
 ---
 
@@ -401,25 +399,20 @@ This project demonstrates understanding of:
 - Error propagation and logging
 - Security (API key management)
 
-### **6. DevOps Practices**
-- Containerization with Docker
-- Kubernetes deployments
-- Configuration management
-- Multi-stage builds
 
 ---
 
 ## 🎯 Why This Project?
 
-This project was built to prepare for the **NBCUniversal Production Application Engineering Internship**, which focuses on:
+This project was built to prepare for the **NBCUniversal Production Application Engineering Interview**, which focuses on:
 
 > "The Production Application Engineering team provides services to multiple businesses within the larger NBCU Enterprise, including the architecture and deployment of internal platforms to support live news production - Virtual Production Control Room (VPCR) and NBCU Forge."
 
 **Job Requirements:**
 - ✅ **Golang proficiency** - Entire codebase in Go
-- ✅ **Kubernetes familiarity** - K8s manifests and deployments
+- ✅ **Kubernetes familiarity** - K8s manifests and deployments, ( did not implement or deploy this yet)
 - ✅ **API consumption** - HTTP client with proper error handling
-- ✅ **Crossplane providers** - Provider pattern mirrors Crossplane architecture
+- ✅ **Crossplane providers** - Provider pattern mirrors Crossplane architecture. (mirror the concept of Crossplane)
 
 **Learning Approach:**
 Rather than copying working code, this project provides a skeleton with `TODO` comments, forcing manual implementation of:
@@ -433,19 +426,7 @@ This hands-on approach ensures deep understanding of Go's type system and produc
 
 ---
 
-## 🔮 Future Enhancements
 
-- [ ] Add AWS MediaLive provider
-- [ ] Implement persistent storage (PostgreSQL)
-- [ ] Add Prometheus metrics
-- [ ] Implement circuit breaker pattern
-- [ ] Add authentication middleware (JWT)
-- [ ] Create OpenAPI/Swagger documentation
-- [ ] Add GraphQL support
-- [ ] Implement event streaming (Kafka)
-- [ ] Add distributed tracing (Jaeger)
-
----
 
 ## 📚 Additional Resources
 
