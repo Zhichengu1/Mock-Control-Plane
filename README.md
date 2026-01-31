@@ -1,21 +1,6 @@
 # Forge Orchestrator - demo purposes 
 
 Forge Orchestrator is a Go microservice that lets you manage video production equipment (cameras, encoders) from different vendors (Sony) through a single unified API. Instead of learning each vendor's different API format, authentication method, and data structure, you just send one simple request to your server (port 8080) saying "create a Sony camera named cam-1 in 4K", and the system automatically translates your request into Sony's specific format, sends it to their API, gets the response, translates it back into your format, and returns it to you - making it easy to add new vendors later by just writing one new "translator" file without changing any other code.
-
----
-
-## 📋 Table of Contents
-- [Overview](#overview)
-- [The Problem](#the-problem)
-- [The Solution](#the-solution)
-- [Architecture](#architecture)
-- [Technical Stack](#technical-stack)
-- [Project Structure](#project-structure)
-- [Getting Started](#getting-started)
-- [API Endpoints](#api-endpoints)
-- [How It Works](#how-it-works)
-- [Learning Objectives](#learning-objectives)
-
 ---
 
 ## 🎯 Overview
