@@ -417,7 +417,7 @@ This hands-on approach ensures deep understanding of Go's type system and produc
 ## 📚 Additional Resources
 
 - [NBCUniversal VPCR Platform Overview](https://www.nbcuniversal.com/technology)
-- [Crossplane Provider Development](https://docs.crossplane.io/latest/concepts/providers/)
+- [Crossplane Provider Development](https://docs.crossplane.io/latest/concepts/providers/](https://docs.crossplane.io/v2.1/))
 - [Go Context Package](https://pkg.go.dev/context)
 - [Kubernetes Best Practices](https://kubernetes.io/docs/concepts/)
 
